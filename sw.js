@@ -1,6 +1,6 @@
 /* Service worker Chantier : réseau d'abord (toujours la dernière version),
    cache en secours pour que l'app s'ouvre aussi hors connexion. */
-const CACHE = 'chantier-v3';
+const CACHE = 'chantier-v4';
 const FICHIERS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
